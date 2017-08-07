@@ -29,10 +29,10 @@ public class OrderRestService {
         	order1.setPromotionEndDate("8-jan-2018");
         	
         	List<Integer> promotionList=new ArrayList<Integer>();
-        	orderIdList.add(10);
-        	orderIdList.add(20);
+        	promotionList.add(10);
+        	promotionList.add(20);
 
-        	order1.setPromotion(orderIdList);
+        	order1.setPromotion(promotionList);
 
   
 
